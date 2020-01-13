@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:orientation="vertical"
+            android:layout_weight="1.0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView android:id="@+id/text_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="100dip"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:focusable="false"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button android:id="@+id/button_test_psam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100sp"
+                android:layout_weight="1"
+                android:text="@string/str_btn_test_psam"/>
+
+            <Button android:id="@+id/button_test_icc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100sp"
+                android:layout_weight="1"
+                android:text="@string/str_btn_test_icc"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button android:id="@+id/button_test_memory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100sp"
+                android:layout_weight="1"
+                android:text="@string/str_btn_test_memory"/>
+
+            <Button android:id="@+id/button_test_picc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100sp"
+                android:layout_weight="1"
+                android:text="@string/str_btn_test_picc"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button android:id="@+id/button_test_mifare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100sp"
+                android:layout_weight="1"
+                android:text="@string/str_btn_test_mifare"/>
+
+            <Button android:id="@+id/button_test_sid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100sp"
+                android:layout_weight="1"
+                android:text="@string/str_btn_test_sid"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button android:id="@+id/button_test_vicc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100sp"
+                android:layout_weight="1"
+                android:text="@string/str_btn_test_vicc"/>
+
+            <Button android:id="@+id/button_test_mag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100sp"
+                android:layout_weight="1"
+                android:text="@string/str_btn_test_mag"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button android:id="@+id/button_test_felica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100sp"
+                android:layout_weight="1"
+                android:text="@string/str_btn_test_felica"/>
+
+            <Button android:id="@+id/button_test_mixed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100sp"
+                android:layout_weight="1"
+                android:text="@string/str_btn_test_mixed"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PosCardReader</string>
+    <string name="ttydemo_activity_title">"PosCardReaderDemo"</string>
+
+    <string name="str_btn_test_psam">"PSAM"</string>
+
+    <string name="str_btn_test_icc">"ICC"</string>
+
+    <string name="str_btn_test_memory">"Memory"</string>
+
+    <string name="str_btn_test_picc">"PICC"</string>
+
+    <string name="str_btn_test_sid">"SID"</string>
+
+    <string name="str_btn_test_vicc">"VICC"</string>
+
+    <string name="str_btn_test_mifare">"Mifare"</string>
+
+    <string name="str_btn_test_mag">"Mag"</string>
+
+    <string name="str_btn_test_felica">"Felica"</string>
+
+    <string name="str_btn_test_mixed">"Mixed"</string>
+</resources>
